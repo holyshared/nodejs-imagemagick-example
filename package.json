@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-imagemagick-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holyshared/nodejs-imagemagick-example.git"
+  },
+  "author": "Noritaka Horio <holy.shared.design@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/holyshared/nodejs-imagemagick-example/issues"
+  },
+  "homepage": "https://github.com/holyshared/nodejs-imagemagick-example#readme",
+  "dependencies": {
+    "imagemagick-native": "^1.9.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "power-assert": "^1.4.1"
+  }
+}
