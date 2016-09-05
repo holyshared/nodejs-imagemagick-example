@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 4.3.0
+  timezone:
+    Asia/Tokyo
+dependencies:
+  override:
+    - npm install
+test:
+  override:
+    - npm test
