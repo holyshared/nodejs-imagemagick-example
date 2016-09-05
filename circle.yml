@@ -4,6 +4,8 @@ machine:
   timezone:
     Asia/Tokyo
 dependencies:
+  pre:
+    - sudo apt-get install libmagick++-dev
   override:
     - npm install
 test:
